@@ -1,0 +1,23 @@
+{
+  "name": "Seretos/empty",
+  "description": "a modular symfony project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arne von Appen"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "composer\\moduleInstaller\\": "src/composer/moduleInstaller/src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "composer\\moduleInstaller\\ModuleInstaller::installRoot"
+    ]
+  }
+}

@@ -2,6 +2,7 @@
   "name": "Seretos/empty",
   "description": "a modular symfony project",
   "license": "MIT",
+  "type": "project",
   "authors": [
     {
       "name": "Arne von Appen"
